@@ -1,4 +1,4 @@
-theme_guts <- ggplot2::theme_linedraw() +
+theme_guts <- ggplot2::theme_classic() +
   ggplot2::theme(
     text = ggplot2::element_text(family = "Helvetica"),
     panel.grid.minor = ggplot2::element_blank(),
