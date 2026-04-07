@@ -1,0 +1,18 @@
+Package: GUTSstyle
+Type: Package
+Title: Create Visualisations in the GUTS Style
+Version: 0.0.0.9000
+Authors@R: person("Gert", "Stulp", email = "g.stulp@rug.nl",
+  role = c("aut", "cre"), comment = c(ORCID = "0000-0003-0173-5554"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Helps creating visualisations in GUTS-style, including adding a logo. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+URL: https://github.com/gertstulp/GUTSstyle
+BugReports: https://github.com/gertstulp/GUTSstyle/issues
+Imports: 
+    ggplot2 (>= 3.5.2)
+Suggests: 
+    cowplot (>= 1.1.1)
